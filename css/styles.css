@@ -187,16 +187,28 @@ img {
 /* Advantages */
 
 .advantage-section {
+    display: flex;
+    min-width: 1128px;
     padding: 120px 0;
 }
 
 .advantage-list {
     display: flex;
     gap: 24px;
+    height: 224px;
 }
 
 .advantage-item {
     display: block;
+}
+
+.advantage-link {
+    position: absolute;
+    width: 264px;
+    height: 112px;
+    background: #F4F4FD;
+    border-radius: 4px;
+    margin-bottom: 8px;
 }
 
 .advantage-title {
