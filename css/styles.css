@@ -295,8 +295,47 @@ img {
     text-align: center;
 }
 
-/* Portfolio */
+/* Customers */
 
+.customers {
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1, 11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--title-color-one);
+    margin-bottom: 72px;
+}
+
+.customers-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.customers-list {
+    display: flex;
+    gap: 24px;
+}
+
+.customers-item {
+    width: calc((100% - 150px) / 6);
+    height: 90px;
+}
+
+.customers-link {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Portfolio */
 
 
 /* Buttons */
