@@ -196,11 +196,10 @@ img {
     height: 224px;
 }
 
-.advantage-item {}
-
-.advantage-link {
-    position: absolute;
-    width: 264px;
+.advantage-feature {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 112px;
     background: #F4F4FD;
     border-radius: 4px;
