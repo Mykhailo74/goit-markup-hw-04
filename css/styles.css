@@ -473,11 +473,16 @@ img {
     display: flex;
 }
 
+.footer-super-container {
+    display: flex;
+}
+
 .footer-container {
-    margin-right: auto;
+    margin-right: 120px;
     padding-left: 15px;
     padding-right: 15px;
     max-width: 264px;
+    margin-right: 120px;
 }
 
 .footer-logo {
@@ -504,9 +509,7 @@ img {
     color: var(--text-color-two);
 }
 
-.footer-soc-container {
-    margin-left: 120px;
-}
+.footer-soc-container {}
 
 .footer-soc-text {
     font-weight: 500;
