@@ -514,13 +514,13 @@ img {
 .footer-soc-text {
     font-weight: 500;
     font-size: 16px;
-    line-height: 1, 5;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--title-color-two);
+    margin-bottom: 16px;
 }
 
 .footer-soc-list {
-    margin-top: 16px;
     display: flex;
     gap: 16px;
 }
@@ -538,4 +538,9 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.footer-soc-link:hover,
+.footer-soc-link:focus {
+    background-color: #31d0aa;
 }
