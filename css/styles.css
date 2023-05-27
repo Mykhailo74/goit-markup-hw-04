@@ -138,7 +138,7 @@ img {
 
 .hero {
     background-color: var(--background-color-one);
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -380,6 +380,10 @@ img {
     border-color: #404bbf;
 }
 
+.customers-icon {
+    fill: currentColor;
+}
+
 
 /* Portfolio */
 
@@ -475,6 +479,7 @@ img {
 
 .footer-super-container {
     display: flex;
+    align-items: baseline;
 }
 
 .footer-container {
@@ -538,6 +543,10 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.footer-soc-icon {
+    fill: var(--text-color-two);
 }
 
 .footer-soc-link:hover,
